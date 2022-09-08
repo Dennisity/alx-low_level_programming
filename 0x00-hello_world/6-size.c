@@ -1,23 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - print the size of bytes
+ * main - Print open sesame
  *
- * Description: using the main function
- * this program prints "the various bytes sizes"
  * Return: Always 0 great work
  */
 int main(void)
 {
-     char f;
-     int g;
-     long int h;
-     long long int i;
-     float j;
-     printf("size of an char: %d byte(s)\n", sizeof(f));
-     printf("size of an int: %d byte(s)\n", sizeof(g));
-     printf("size of a long int: %d byte(s)\n", sizeof(h));
-     printf("size of a long long int: %d byte(s)\n", sizeof(i));
-     printf("size of a float: %d byte(s)\n", sizeof(j));
-     return (0);
+char a;
+int b;
+long int c;
+long long int d;
+float e;
+printf("Size of a char: %d byte(s)\n", sizeof(a));
+printf("Size of an int: %d byte(s)\n", sizeof(b));
+printf("Size of a long int: %d byte(s)\n", sizeof(c));
+printf("Size of a long long int: %d byte(s)\n", sizeof(d));
+printf("Size of an float: %d byte(s)\n", sizeof(e));
+return (0);
 }
