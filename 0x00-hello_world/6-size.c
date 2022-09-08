@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - print the size of various types
+ * main - print the size of bytes
  *
- * Description: prints the size of various types on the computer it is compiled
- * and run on
- *
+ * Description: using the main function
+ * this program prints "the various bytes sizes"
  * Return: Always 0 great work
  */
 int main(void)
 {
-char a;
-int b;
-long int c;
-long long int d;
-float e;
-printf("size of an char: %d byte(s)\n", (unsigned long)sizeof(a));
-printf("size of an int: %d byte(s)\n", (unsigned long)sizeof(b));
-printf("size of a long int: %d byte(s)\n", (unsigned long)sizeof(c));
-printf("size of a long long int: %d byte(s)\n", (unsigned long)sizeof(d));
-printf("size of a float: %d byte(s)\n", (unsigned long)sizeof(e));
-return (0);
+     char f;
+     int g;
+     long int h;
+     long long int i;
+     float j;
+     printf("size of an char: %d byte(s)\n", sizeof(f));
+     printf("size of an int: %d byte(s)\n", sizeof(g));
+     printf("size of a long int: %d byte(s)\n", sizeof(h));
+     printf("size of a long long int: %d byte(s)\n", sizeof(i));
+     printf("size of a float: %d byte(s)\n", sizeof(j));
+     return (0);
 }
