@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (great)
  */
+
 int main(void)
 {
 	char alphabet;
