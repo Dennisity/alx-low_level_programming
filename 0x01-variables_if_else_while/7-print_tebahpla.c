@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - Open sesame 
+ * main - sesame
  *
- * Return: Always 0 (great)
+ * Return: Always 0 great
  */
-
 int main(void)
 
 {
