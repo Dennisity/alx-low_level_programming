@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - open sesame point 
+ *main - Open sesame 
  *
- * Return: Always 0 (great)
+ *Return: Always 0 (great)
  */
 int main(void)
 {
